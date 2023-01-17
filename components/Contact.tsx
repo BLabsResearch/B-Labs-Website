@@ -31,7 +31,7 @@ export default function Contact() {
                 </div>
             </form>
             <div className="w-full flex justify-center">
-                <button className="bg-red-700 text-white px-3.5 py-2.5 rounded-lg">LET{"'"}S GO!</button>
+                <button className="bg-red-700 text-white px-3.5 py-2.5 rounded-lg font-semibold">LET{"'"}S GO!</button>
             </div>
         </div>
     )
