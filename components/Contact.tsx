@@ -21,7 +21,7 @@ export default function Contact() {
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="smith#1234" />
                     </div>
                     <div className="w-full flex-1">
-                        <p className="p text-white">Organization</p>
+                        <p className="p text-white">Organisation</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="ABC Ltd." />
                     </div>
                 </div>

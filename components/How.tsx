@@ -16,7 +16,7 @@ export default function How() {
                 <div className="text-white space-y-4 px-10 sm:px-16 lg:px-0">
                     <ol className="list-disc space-y-1">
                         <li className="text-base">Hive talent and resources: utilising partnerships within and outside the web3 space to identify matching research talent, specialised target groups and reliable data sources.</li>
-                        <li className="text-base">Analysis using original and secondary research, applying qualitative & quantitative methodologies.</li>
+                        <li className="text-base">Analysis using original and secondary research, applying quantitative & qualitative methodologies.</li>
                         <li className="text-base">A constantly expanding proprietary database to provide additional insights.</li>
                     </ol>
                     <div className="w-full text-center lg:text-start">

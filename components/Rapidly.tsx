@@ -15,7 +15,7 @@ export default function Rapidly() {
                 </h3>
                 <div className="text-white space-y-4 px-10 sm:px-16 lg:px-0">
                     <ol className="list-disc space-y-1">
-                        <li className="text-base">Funding internal research teams requires significant time, resource and coordination commitments.</li>
+                        <li className="text-base">Funding internal research teams requires significant time, resource and coordination commitment.</li>
                         <li className="text-base">Take advantage of a decentralized network of professional researchers who are experts in their field.</li>
                         <li className="text-base">Obtain insight-driven knowledge in a timely fashion to take advantage of time-sensitive opportunities.</li>
                     </ol>

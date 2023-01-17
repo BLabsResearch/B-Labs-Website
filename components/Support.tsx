@@ -12,7 +12,7 @@ export default function Support() {
                     <Image src={"/charts.png"} width={50} height={50} alt="icon" />
                     <h4 className="h4 text-white">Analysis</h4>
                     <p className="p text-white flex-1">
-                        Data driven research, including  tokenomics modelling, on- chain analysis and data driven marketing research
+                        Data driven research, including  tokenomics modelling, on-chain analysis and data driven marketing research
                     </p>
                     <button className="bg-red-700 p-2.5 text-white w-full rounded-lg font-semibold">WANT TO KNOW MORE</button>
                 </div>
