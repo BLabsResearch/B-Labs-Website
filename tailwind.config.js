@@ -11,6 +11,9 @@ module.exports = {
       },
       textColor: {
         "red-700": "#ED161F"
+      },
+      borderColor: {
+        "red-700": "#ED161F"
       }
     },
     fontFamily: {
