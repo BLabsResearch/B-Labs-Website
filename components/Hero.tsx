@@ -13,11 +13,11 @@ export default function Hero() {
                         <p className="text-white">by providing the highest quality research in web3</p>
                         <div className="flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-4 w-full justify-center items-center pt-5">
                             <div>
-                                <button className="flex space-x-1 border-2 border-white p-2 rounded-lg items-center justify-center w-[240px]">
+                                <button className="flex space-x-1 border-2 border-white p-2.5 rounded-lg items-center justify-center text-[14px] w-[182px]">
                                     <span>
                                         <SaveIcon className="w-6 h-6 text-white" />
                                     </span>
-                                    <span className="text-white flex-1 font-semibold">
+                                    <span className="text-white font-semibold text-[14px]">
                                         OUR PITCH DECK
                                     </span>
                                 </button>

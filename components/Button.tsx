@@ -8,7 +8,7 @@ interface Props {
 export default function Button({ text, url }: Props) {
     const router = useRouter()
     return(
-        <button className="py-2.5 px-5 bg-red-700 text-white rounded-md font-semibold" onClick={() => {
+        <button className="p-2.5 bg-red-700 text-white rounded-md font-semibold text-[14px] w-[182px]" onClick={() => {
             if (url) {
                 router.push(url)
             }
