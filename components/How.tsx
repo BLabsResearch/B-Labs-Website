@@ -20,7 +20,7 @@ export default function How() {
                         <li className="text-base">A constantly expanding proprietary database to provide additional insights.</li>
                     </ol>
                     <div className="w-full text-center lg:text-start">
-                        <button className="py-2.5 px-4 sm:px-5 bg-red-700 text-sm text-white rounded-md font-semibold">Request further information</button>
+                        <button className="py-2.5 px-4 sm:px-5 bg-red-700 text-sm text-white rounded-md font-semibold">REQUEST FURTHER INFORMATION</button>
                     </div>
                 </div>
             </div>
