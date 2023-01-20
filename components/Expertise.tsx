@@ -91,7 +91,7 @@ export default function Expertise() {
                 </div>
             </div>
             <div className="w-full flex justify-center">
-                <button className="py-2.5 px-10 bg-red-700 text-white rounded-md font-semibold">GET IN TOUCH</button>
+                <button className="py-2.5 px-10 bg-red-700 text-white rounded-md font-semibold text-[14px]">GET IN TOUCH</button>
             </div>
         </div>
     )

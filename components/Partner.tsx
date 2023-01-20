@@ -20,7 +20,7 @@ export default function Partner() {
                         <p className="text-base">We work agile, ensuring results and meaningful, focused iterations.</p>
                     </div>
                     <div className="w-full text-center lg:text-start">
-                        <button className="py-2.5 px-5 bg-red-700 text-sm text-white rounded-md font-semibold">LET{"'"}S CONNECT</button>
+                        <button className="py-2.5 px-5 bg-red-700 text-sm text-white rounded-md font-semibold text-[14px]">LET{"'"}S CONNECT</button>
                     </div>
                 </div>
             </div>

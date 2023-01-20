@@ -20,7 +20,7 @@ export default function Rapidly() {
                         <li className="text-base">Obtain insight-driven knowledge in a timely fashion to take advantage of time-sensitive opportunities.</li>
                     </ol>
                     <div className="w-full text-center lg:text-start">
-                        <button className="py-2.5 px-5 bg-red-700 text-sm text-white rounded-md font-semibold">ASK US</button>
+                        <button className="py-2.5 px-5 bg-red-700 text-white rounded-md font-semibold text-[14px]">ASK US</button>
                     </div>
                 </div>
             </div>
