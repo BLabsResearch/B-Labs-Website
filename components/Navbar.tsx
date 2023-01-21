@@ -1,9 +1,15 @@
-import { MenuAlt3Icon } from "@heroicons/react/outline"
+import { MenuAlt3Icon, XIcon } from "@heroicons/react/outline"
 import Image from "next/image"
 import Link from "next/link"
+import { useState } from "react"
 import Button from "./Button"
 
 export default function Navbar() {
+    const [open, setOpen] = useState(false)
+    function menu() {
+        setOpen(!open)
+        document.querySelector(".sidebar")?.classList.toggle("-translate-x-full")
+    }
     return(
         <div>
             <div className="w-full flex justify-between">
@@ -17,9 +23,8 @@ export default function Navbar() {
                     <Link href="/"><Button text="CONTACT US" url="" /></Link>
                 </div>
                 <div className="lg:hidden">
-                    <button onClick={() => {
-                        document.querySelector(".sidebar")?.classList.toggle("-translate-x-full")}
-                    }><MenuAlt3Icon className="h-12 w-12 text-white" /></button>
+                    <button onClick={() => menu()}>{
+                        open ? <XIcon className="h-12 w-12 text-white" /> : <MenuAlt3Icon className="h-12 w-12 text-white" />}</button>
                 </div>
             </div>
             <div className="bg-black w-64 h-screen fixed top-0 left-0 transition duration-200 ease-in-out transform -translate-x-full sidebar lg:hidden z-20">
