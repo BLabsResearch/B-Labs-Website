@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="w-full p-2.5 flex flex-col lg:flex-row lg:justify-between space-y-1.5 lg:space-y-0 max-w-6xl">
-                <div className="space-y-1.5">
+                <div className="space-y-1.5 mb-[80px]">
                     <div className="relative min-w-[75px]">
                         <Image src={"/red-logo.png"} width={75} height={75} alt="logo" />
                     </div>
