@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Rapidly() {
     return(
@@ -20,7 +21,9 @@ export default function Rapidly() {
                         <li className="text-base">Obtain insight-driven knowledge in a timely fashion to take advantage of time-sensitive opportunities.</li>
                     </ol>
                     <div className="w-full text-center lg:text-start">
-                        <button className="py-2.5 px-5 bg-red-700 text-white rounded-md font-semibold text-[14px]">ASK US</button>
+                        <Link href={"#contact"}>
+                            <button className="py-2.5 px-5 bg-red-700 text-white rounded-md font-semibold text-[14px]">ASK US</button>
+                        </Link>
                     </div>
                 </div>
             </div>

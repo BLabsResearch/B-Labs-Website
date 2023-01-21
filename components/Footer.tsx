@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <div className="w-full h-[650px] lg:h-auto bg-[url('/footer.png')] bg-no-repeat bg-bottom bg-cover px-3.5 py-5 
             lg:px-10 lg:py-8 flex flex-col items-center justify-center space-y-5">
-            <div className="flex flex-col items-center space-y-3.5 mt-[80px] mb-[40px]">
+            <div className="flex flex-col items-center space-y-3.5 mt-[80px] mb-[40px]" id="newsletter">
                 <h3 className="text-lg lg:text-2xl font-semibold text-center">Get the B Labs newsletter!</h3>
             </div>
             <div className="w-full flex justify-center max-w-xs">
@@ -42,9 +42,9 @@ export default function Footer() {
                 </div>
                 <div className="text-white space-y-1">
                     <h2 className="font-semibold lg:text-lg">Site Map</h2>
-                    <div><Link href={"/"} className="text-sm lg:text-base">About us</Link></div>
-                    <div><Link href={"/"} className="text-sm lg:text-base">Services</Link></div>
-                    <div><Link href={"/"} className="text-sm lg:text-base">Strategies</Link></div>
+                    <div><Link href={"#about"} className="text-sm lg:text-base">About us</Link></div>
+                    <div><Link href={"#services"} className="text-sm lg:text-base">Services</Link></div>
+                    <div><Link href={"#strategies"} className="text-sm lg:text-base">Strategies</Link></div>
                 </div>
                 <div className="text-white">
                     <h2 className="font-semibold lg:text-lg">Information</h2>

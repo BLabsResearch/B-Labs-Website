@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Partner() {
     return(
-        <div className="w-full pt-16 pb-5 flex flex-col lg:flex-row items-center justify-center lg:px-24 space-y-4">
+        <div className="w-full pt-16 pb-5 flex flex-col lg:flex-row items-center justify-center lg:px-24 space-y-4" id="about">
             <h3 className="font-semibold text-white text-2xl text-left w-full block lg:hidden px-5 sm:px-10">
                 <span className="text-red-700">Your partner</span> for making the right decisions <span className="text-red-700">in web3</span>
             </h3>
@@ -20,7 +21,9 @@ export default function Partner() {
                         <p className="text-base">We work agile, ensuring results and meaningful, focused iterations.</p>
                     </div>
                     <div className="w-full text-center lg:text-start">
-                        <button className="py-2.5 px-5 bg-red-700 text-sm text-white rounded-md font-semibold text-[14px]">LET{"'"}S CONNECT</button>
+                        <Link href={"#contact"}>
+                            <button className="py-2.5 px-5 bg-red-700 text-sm text-white rounded-md font-semibold text-[14px]">LET{"'"}S CONNECT</button>
+                        </Link>
                     </div>
                 </div>
             </div>
