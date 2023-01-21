@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Expertise() {
     return(
-        <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex flex-col justify-center items-center space-y-6">
+        <div className="bg-black w-full px-3.5 py-5 flex flex-col justify-center items-center space-y-6 pt-[80px]">
             <h3 className="font-semibold text-white text-2xl lg:text-3xl text-left w-full md:pl-14 lg:text-center lg:pl-0">
                 Main areas of <span className="text-red-700">expertise</span>
             </h3>

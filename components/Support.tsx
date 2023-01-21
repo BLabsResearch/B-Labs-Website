@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Support() {
     return(
-        <div className="w-full flex flex-col items-center space-y-5 px-5 pt-10">
+        <div className="w-full flex flex-col items-center space-y-5 px-5 pt-[80px]">
             <h3 className="font-semibold text-white text-2xl lg:text-3xl text-left w-full md:pl-14 lg:text-center lg:pl-0">
                 How we can <span className="text-red-700">support you</span>
             </h3>
