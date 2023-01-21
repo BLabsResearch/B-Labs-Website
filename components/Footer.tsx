@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <div className="w-full h-[650px] lg:h-auto bg-[url('/footer.png')] bg-no-repeat bg-bottom bg-cover px-3.5 py-5 
             lg:px-10 lg:py-8 flex flex-col items-center justify-center space-y-5">
-            <div className="flex flex-col items-center space-y-3.5">
+            <div className="flex flex-col items-center space-y-3.5 mt-[40px]">
                 <h3 className="text-lg lg:text-2xl font-semibold text-center">Get the B Labs newsletter!</h3>
             </div>
             <div className="w-full flex justify-center max-w-xs">
