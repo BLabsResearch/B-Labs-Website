@@ -1,6 +1,7 @@
 export default function Contact() {
     return(
-        <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex flex-col justify-center items-center space-y-3.5 pb-[80px]">
+        <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex flex-col justify-center items-center space-y-3.5 pb-[80px]"
+            id="contact">
             <h3 className="font-semibold text-white text-2xl lg:text-3xl text-start w-full sm:text-center">
                 Contact
             </h3>

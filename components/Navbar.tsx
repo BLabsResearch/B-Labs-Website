@@ -20,7 +20,7 @@ export default function Navbar() {
                     <Link href="/"><p className="text-white text-[16px] hover:text-red-700">About us</p></Link>
                     <Link href="/"><p className="text-white text-[16px] hover:text-red-700">Services</p></Link>
                     <Link href="/"><p className="text-white text-[16px] hover:text-red-700">Strategies</p></Link>
-                    <Link href="/"><Button text="CONTACT US" url="" /></Link>
+                    <Link href="#contact"><Button text="CONTACT US" url="" /></Link>
                 </div>
                 <div className="lg:hidden">
                     <button onClick={() => menu()}>{
@@ -40,7 +40,7 @@ export default function Navbar() {
                         <Link href="/" className="text-[16px] text-white tracking-wide">Strategies</Link>
                     </div>
                     <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
-                        <Link href="/" className="text-[16px] text-white tracking-wide">Contact Us</Link>
+                        <Link href="#contact" className="text-[16px] text-white tracking-wide">Contact Us</Link>
                     </div>
                 </div>
             </div>
