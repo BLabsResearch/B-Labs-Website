@@ -4,9 +4,26 @@ import axios from "axios";
 
 export default function Footer() {
     async function News() {
-        axios.post("https://app.getresponse.com/add_subscriber.html", {
-            email: "supremelabs69@gmail.com"
-        }).then(response => console.log(response))
+        // axios.post("https://app.getresponse.com/add_subscriber.html", {
+        //     email: "supremelabs69@gmail.com"
+        // }).then(response => console.log(response))
+        try {
+            const response = await fetch("https://app.getresponse.com/add_subscriber.html", {
+                method: "POST",
+                mode: "cors",
+                cache: "no-cache",
+                credentials: "same-origin",
+                headers: {
+                    "Access-Control-Allow-Origin": "https://blabs.vercel.app"
+                },
+                body: JSON.stringify({
+                    email: "supremelabs69@gmail.com"
+                })
+            })
+            console.log(response.json())            
+        } catch (error) {
+            console.log(error)
+        }
     }
     return(
         <div className="w-full h-full lg:h-auto bg-[url('/footer.png')] bg-no-repeat bg-bottom bg-cover px-3.5 py-5 
