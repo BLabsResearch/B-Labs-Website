@@ -2,27 +2,27 @@ export default function Contact() {
     return(
         <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex flex-col justify-center items-center space-y-3.5 pb-[80px]"
             id="contact">
-            <h3 className="font-semibold text-white text-2xl lg:text-3xl text-start w-full sm:text-center">
+            <h3 className="w-full text-2xl font-semibold text-white lg:text-3xl text-start sm:text-center">
                 Contact
             </h3>
             <form className="max-w-2xl space-y-2.5">
                 <div className="w-full flex flex-col sm:flex-row sm:space-x-2.5 space-y-2.5 sm:space-y-0">
-                    <div className="w-full flex-1">
-                        <p className="p text-white sm:h-auto">Your name</p>
+                    <div className="flex-1 w-full">
+                        <p className="text-white p sm:h-auto">Your name</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="Robin Smith" />
                     </div>
-                    <div className="w-full flex-1">
-                        <p className="p text-white sm:h-auto">Your mail *</p>
+                    <div className="flex-1 w-full">
+                        <p className="text-white p sm:h-auto">Your mail *</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="robin.smith@xyz.io" />
                     </div>
                 </div>
                 <div className="w-full flex flex-col sm:flex-row sm:space-x-2.5 space-y-2.5 sm:space-y-0">
-                    <div className="w-full flex-1">
-                        <p className="p text-white">Discord handle</p>
+                    <div className="flex-1 w-full">
+                        <p className="text-white p">Discord handle</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="smith#1234" />
                     </div>
-                    <div className="w-full flex-1">
-                        <p className="p text-white">Organisation</p>
+                    <div className="flex-1 w-full">
+                        <p className="text-white p">Organization</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="ABC Ltd." />
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export default function Contact() {
                     <textarea className="w-full h-32 border-2 border-red-700 bg-transparent outline-none text-white rounded-md p-2.5" placeholder="Hello..." />
                 </div>
             </form>
-            <div className="w-full flex justify-center">
+            <div className="flex justify-center w-full">
                 <button className="bg-red-700 text-white px-3.5 py-2.5 rounded-lg font-semibold text-[14px]">LET{"'"}S GO!</button>
             </div>
         </div>

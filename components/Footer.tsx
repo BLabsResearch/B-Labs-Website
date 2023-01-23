@@ -6,13 +6,16 @@ export default function Footer() {
         <div className="w-full h-full lg:h-auto bg-[url('/footer.png')] bg-no-repeat bg-bottom bg-cover px-3.5 py-5 
             lg:px-10 lg:py-8 flex flex-col items-center justify-center space-y-5 pb-[80px]">
             <div className="flex flex-col items-center space-y-3.5 mt-[80px] mb-[40px]" id="newsletter">
-                <h3 className="text-lg lg:text-2xl font-semibold text-center">Get the B Labs newsletter!</h3>
+                <h3 className="text-lg font-semibold text-center lg:text-2xl">Get the B Labs newsletter!</h3>
             </div>
-            <div className="w-full flex justify-center max-w-xs">
-                <div className="flex min-w-full mb-[80px]">
-                    <input type="email" className="w-full p-2 rounded-l-lg outline-none pl-4 pr-5" placeholder="Enter email" />
-                    <button className="text-white py-2 px-4 rounded-lg bg-red-700 -ml-3.5">Subscribe</button>
-                </div>
+            <div className="flex justify-center w-full max-w-xs">
+                <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post"
+                 className="flex min-w-full mb-[80px]">
+                    <input type="email" className="w-full p-2 pl-4 pr-5 rounded-l-lg outline-none" placeholder="Enter email" name="email" />
+                    <input type="hidden" name="campaign_token" value="fN4Li" />
+                    <input type="hidden" name="start_day" value="0" />
+                    <button className="text-white py-2 px-4 rounded-lg bg-red-700 -ml-3.5" type="submit">Subscribe</button>
+                </form>
             </div>
             <div className="w-full p-2.5 flex flex-col lg:flex-row lg:justify-between space-y-1.5 lg:space-y-0 max-w-6xl">
                 <div className="space-y-1.5">
@@ -22,7 +25,7 @@ export default function Footer() {
                     <p className="p text-white hidden lg:block max-w-[250px]">
                         © Copyright 2023 B LABS All Rights Reserved 
                     </p>
-                    <div className="lg:flex space-x-5 items-center hidden">
+                    <div className="items-center hidden space-x-5 lg:flex">
                         <Link legacyBehavior href={"https://medium.com/@BLabs"} className="relative min-w-[25px]">
                             <a target="_blank">
                                 <Image src={"/apple.png"} width={25} height={25} alt="logo" />
@@ -50,7 +53,7 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
-                <div className="text-white space-y-1">
+                <div className="space-y-1 text-white">
                     <h2 className="font-semibold lg:text-lg">Site Map</h2>
                     <div><Link legacyBehavior href={"#about"} className="text-sm lg:text-base">About us</Link></div>
                     <div><Link legacyBehavior href={"#services"} className="text-sm lg:text-base">Services</Link></div>
@@ -65,7 +68,7 @@ export default function Footer() {
                     <h2 className="font-semibold lg:text-lg">Contact</h2>
                     <div><p className="text-sm lg:text-base">info@blabsresearch.com</p></div>
                 </div>
-                <div className="flex space-x-5 items-center lg:hidden">
+                <div className="flex items-center space-x-5 lg:hidden">
                     <Link legacyBehavior href={"https://medium.com/@BLabs"} className="relative min-w-[25px]">
                         <a target="_blank">
                             <Image src={"/apple.png"} width={25} height={25} alt="logo" />
@@ -92,7 +95,7 @@ export default function Footer() {
                         </a>
                     </Link>
                 </div>
-                <p className="p text-white block lg:hidden pt-5 text-sm lg:text-base">
+                <p className="block pt-5 text-sm text-white p lg:hidden lg:text-base">
                     © Copyright 2023 B LABS All Rights Reserved 
                 </p>
             </div>
