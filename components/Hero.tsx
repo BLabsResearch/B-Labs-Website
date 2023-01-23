@@ -24,7 +24,7 @@ export default function Hero() {
                                 </button>
                             </Link>
                             <div>
-                                <Button text="WATCH OUR VIDEO" url="" />
+                                <Button text="WATCH OUR VIDEO" url="https://www.canva.com/design/DAFYh5nmA78/JpzdYMZZejaS0jnFytyxAw/watch?utm_content=DAFYh5nmA78&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" />
                             </div>
                         </div>
                     </div>
