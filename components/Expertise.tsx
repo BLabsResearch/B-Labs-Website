@@ -8,7 +8,7 @@ export default function Expertise() {
                 Main areas of <span className="text-red-700">expertise</span>
             </h3>
             <p className="text-white text-left w-full md:pl-14 lg:text-center lg:pl-0">We can currently offer you:</p>
-            <div className="max-w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-[76px]">
+            <div className="max-w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-3 gap-y-[76px] lg:gap-[76px]">
                 <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
                     <Image src="/business.png" width={30} height={30} alt="icon" />
                     <h4 className="h4 text-white">Business</h4>
