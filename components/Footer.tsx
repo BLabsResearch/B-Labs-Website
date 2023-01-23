@@ -1,7 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import axios from "axios";
 
 export default function Footer() {
+    async function News() {
+        axios.post("https://app.getresponse.com/add_subscriber.html", {
+            email: "supremelabs69@gmail.com"
+        }).then(response => console.log(response))
+    }
     return(
         <div className="w-full h-full lg:h-auto bg-[url('/footer.png')] bg-no-repeat bg-bottom bg-cover px-3.5 py-5 
             lg:px-10 lg:py-8 flex flex-col items-center justify-center space-y-5 pb-[80px]">
@@ -9,13 +15,14 @@ export default function Footer() {
                 <h3 className="text-lg font-semibold text-center lg:text-2xl">Get the B Labs newsletter!</h3>
             </div>
             <div className="flex justify-center w-full max-w-xs">
-                <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post"
+                {/* <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post"
                  className="flex min-w-full mb-[80px]">
                     <input type="email" className="w-full p-2 pl-4 pr-5 rounded-l-lg outline-none" placeholder="Enter email" name="email" />
                     <input type="hidden" name="campaign_token" value="fN4Li" />
                     <input type="hidden" name="start_day" value="0" />
                     <button className="text-white py-2 px-4 rounded-lg bg-red-700 -ml-3.5" type="submit">Subscribe</button>
-                </form>
+                </form> */}
+                <button className="text-white py-2 px-4 rounded-lg bg-red-700 -ml-3.5" onClick={() => News()}>Subscribe</button>
             </div>
             <div className="w-full p-2.5 flex flex-col lg:flex-row lg:justify-between space-y-1.5 lg:space-y-0 max-w-6xl">
                 <div className="space-y-1.5">
