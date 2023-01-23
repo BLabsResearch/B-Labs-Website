@@ -23,18 +23,18 @@ export default function Contact() {
                     <div className="flex-1 w-full">
                         <p className="text-white p">Discord handle</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
-                         name="handle" placeholder="smith#1234" required />
+                         name="custom_url" placeholder="smith#1234" required />
                     </div>
                     <div className="flex-1 w-full">
                         <p className="text-white p">Organization</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
-                         name="organization" placeholder="ABC Ltd." required />
+                         name="custom_company" placeholder="ABC Ltd." required />
                     </div>
                 </div>
                 <div className="w-full flex flex-col space-y-2.5">
                     <p className="w-full text-white">Tell us about your problems and needs *</p>
                     <textarea className="w-full h-32 border-2 border-red-700 bg-transparent outline-none text-white rounded-md p-2.5"
-                     name="needs" placeholder="Hello..." required />
+                     name="custom_comment" placeholder="Hello..." required />
                 </div>
                 <input type="hidden" name="campaign_token" value="fN4Li" />
                 <input type="hidden" name="start_day" value="0" />
