@@ -34,6 +34,15 @@ export default function Contact() {
             <div className="w-full flex justify-center">
                 <button className="bg-red-700 text-white px-3.5 py-2.5 rounded-lg font-semibold text-[14px]">LET{"'"}S GO!</button>
             </div>
+<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+    
+    email: <input type="text" name="email"/><br/>
+    <input type="hidden" name="campaign_token" value="fN4Li" />
+    
+    <input type="hidden" name="start_day" value="0" />
+    
+    <input type="submit" value="Subscribe"/>
+</form>
         </div>
     )
 }
