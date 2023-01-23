@@ -91,6 +91,17 @@ export default function Expertise() {
                     </div>
                 </div>
             </div>
+<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+    <!-- Email field (required) -->
+    email: <input type="text" name="email"/><br/>
+    <!-- List token -->
+    <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+    <input type="hidden" name="campaign_token" value="fN4Li" />
+    <!-- Add subscriber to the follow-up sequence with a specified day (optional) -->
+    <input type="hidden" name="start_day" value="0" />
+    <!-- Subscriber button -->
+    <input type="submit" value="Subscribe"/>
+</form>
             <div className="w-full flex justify-center">
                 <Link href={"#newsletter"}>
                     <button className="py-2.5 px-10 bg-red-700 text-white rounded-md font-semibold text-[14px]">GET IN TOUCH</button>
