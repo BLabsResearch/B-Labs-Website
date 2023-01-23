@@ -23,7 +23,7 @@ export default function Contact() {
                     <div className="flex-1 w-full">
                         <p className="text-white p">Discord handle</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
-                         name="custom_fax" placeholder="smith#1234" required />
+                         name="custom_street" placeholder="smith#1234" required />
                     </div>
                     <div className="flex-1 w-full">
                         <p className="text-white p">Organization</p>
