@@ -17,10 +17,10 @@ export default function Navbar() {
                     <Image src={"/logo.png"} width={107} height={107} alt="" />
                 </Link>
                 <div className="max-w-lg lg:flex space-x-5 items-center hidden">
-                    <Link href="#about"><p className="text-white text-[16px] hover:text-red-700">About us</p></Link>
-                    <Link href="#services"><p className="text-white text-[16px] hover:text-red-700">Services</p></Link>
-                    <Link href="#strategies"><p className="text-white text-[16px] hover:text-red-700">Strategies</p></Link>
-                    <Link href="#contact"><Button text="CONTACT US" url="" /></Link>
+                    <Link href="/#about"><p className="text-white text-[16px] hover:text-red-700">About us</p></Link>
+                    <Link href="/#services"><p className="text-white text-[16px] hover:text-red-700">Services</p></Link>
+                    <Link href="/#strategies"><p className="text-white text-[16px] hover:text-red-700">Strategies</p></Link>
+                    <Link href="/#contact"><Button text="CONTACT US" url="" /></Link>
                 </div>
                 <div className="lg:hidden">
                     <button onClick={() => menu()}>{
@@ -30,22 +30,22 @@ export default function Navbar() {
             <div className="bg-black w-64 h-screen fixed top-0 left-0 transition duration-200 ease-in-out transform -translate-x-full sidebar lg:hidden z-20">
                 <div className="p-3.5"><Image src={"/logo.png"} alt="logo" width={75} height={75} className="block lg:hidden" /></div>
                 <div className="px-3.5 space-y-0.5">
-                        <Link legacyBehavior href="#about">
+                        <Link legacyBehavior href="/#about">
                             <div className="hover:cursor-pointer hover:bg-red-700 rounded-lg p-2.5 w-full">
                                 <p className="text-[16px] text-white tracking-wide w-full">About us</p>
                             </div>
                         </Link>
-                        <Link legacyBehavior href="#services">
+                        <Link legacyBehavior href="/#services">
                             <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
                                 <p className="text-[16px] text-white tracking-wide w-full">Services</p>
                             </div>
                         </Link>
-                    <Link legacyBehavior href="#strategies">
+                    <Link legacyBehavior href="/#strategies">
                         <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg text-[16px] text-white tracking-wide">
                             <p className="text-[16px] text-white tracking-wide w-full">Strategies</p>
                         </div>
                     </Link>
-                    <Link legacyBehavior href="#contact">
+                    <Link legacyBehavior href="/#contact">
                         <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
                             <p className="text-[16px] text-white tracking-wide w-full">Contact Us</p>
                         </div>
