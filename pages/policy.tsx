@@ -224,7 +224,7 @@ export default function Policy() {
 
                 </p>
 
-                <p>
+                <p className="space-y-2.5">
 
                     <p className="text-white font-semibold">8. International data transfers</p>
                     
@@ -236,23 +236,29 @@ export default function Policy() {
 
                 
 
-                ‍ 
+                ‍ <p className="space-y-2.5">
 
-                <p className="text-white font-semibold">9. Security of personal information</p>
+                 <p className="text-white font-semibold">9. Security of personal information</p>
 
-                ‍ We use reasonable organisational, technical and administrative measures designed to protect against unauthorised access, misuse, loss, disclosure, alteration and destruction of personal information we process. Unfortunately, data transmission over the internet cannot be guaranteed as completely secure. Therefore, while we strive to protect your personal information, we cannot guarantee its security.
+                ‍ <p>We use reasonable organisational, technical and administrative measures designed to protect against unauthorised access, misuse, loss, disclosure, alteration and destruction of personal information we process. Unfortunately, data transmission over the internet cannot be guaranteed as completely secure. Therefore, while we strive to protect your personal information, we cannot guarantee its security.</p>
+                </p>
+                
+                <p className="space-y-2.5">
+                 <p className="text-white font-semibold">10. Changes and updates to this Policy</p>
+                 <p>We will update this Policy from time to time. You are advised to review this Policy periodically for any changes. Changes to this Policy are effective when they are posted on this page. If we make material changes, we will let you know.</p>
+                </p>
+                
+                <p className="space-y-2.5">
+                 <p className="text-white font-semibold">11. Complaints</p>
 
-                <p className="text-white font-semibold">10. Changes and updates to this Policy</p>
-                We will update this Policy from time to time. You are advised to review this Policy periodically for any changes. Changes to this Policy are effective when they are posted on this page. If we make material changes, we will let you know.
-
-                <p className="text-white font-semibold">11. Complaints</p>
-
-                ‍ If you have a concern about our privacy practices, including the way we handle your personal information, please contact us at privacy@blabsresearch.com. We will endeavour to respond to your complaint as soon as possible. You can also report it to the data protection authority that is authorised to hear those concerns.
-
+                ‍ <p>If you have a concern about our privacy practices, including the way we handle your personal information, please contact us at privacy@blabsresearch.com. We will endeavour to respond to your complaint as soon as possible. You can also report it to the data protection authority that is authorised to hear those concerns.</p>
+                
+                </p>
+<p className="space-y-2.5">
                 <p className="text-white font-semibold">12. Contact us</p>
-                B Labs is the entity responsible for the processing of your personal information in connection with the website, and is the data controller in respect of such processing.
-                If you have any questions or comments about this Policy, our privacy practices, or if you would like to exercise your rights with respect to your personal information, please contact us by email at: privacy@blabsresearch.com.
-
+                <p>B Labs is the entity responsible for the processing of your personal information in connection with the website, and is the data controller in respect of such processing.</p>
+                <p>If you have any questions or comments about this Policy, our privacy practices, or if you would like to exercise your rights with respect to your personal information, please contact us by email at: privacy@blabsresearch.com.</p>
+</p>
             </div>
             <Footer />
         </div>
