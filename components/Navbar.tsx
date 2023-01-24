@@ -13,9 +13,9 @@ export default function Navbar() {
     return(
         <div>
             <div className="w-full flex justify-between">
-                <div className="relative max-w-[69px] lg:max-w-[107px]">
+                <Link href={"/"} className="relative max-w-[69px] lg:max-w-[107px]">
                     <Image src={"/logo.png"} width={107} height={107} alt="" />
-                </div>
+                </Link>
                 <div className="max-w-lg lg:flex space-x-5 items-center hidden">
                     <Link href="#about"><p className="text-white text-[16px] hover:text-red-700">About us</p></Link>
                     <Link href="#services"><p className="text-white text-[16px] hover:text-red-700">Services</p></Link>
