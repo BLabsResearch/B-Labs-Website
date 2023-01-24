@@ -62,7 +62,7 @@ export default function Footer() {
                 </div>
                 <div className="text-white">
                     <h2 className="font-semibold lg:text-lg">Information</h2>
-                    <div><Link legacyBehavior href={"/"} className="text-sm lg:text-base">Privacy policy</Link></div>
+                    <div><Link legacyBehavior href={"/policy"} className="text-sm lg:text-base">Privacy policy</Link></div>
                     <div><Link legacyBehavior href={"/cookies"} className="text-sm lg:text-base">Cookies policy</Link></div>
                 </div>
                 <div className="text-white">

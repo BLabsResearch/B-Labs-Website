@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function Cookies() {
     return(
         <div className="w-full bg-black min-h-screen space-y-[50px] flex flex-col items-center">
+            <Head>
+                <title>Cookies</title>
+            </Head>
             <div className="w-full px-5 sm:px-8 lg:px-24 pt-8 "><Navbar /></div>
             <h1 className="text-[36px] md:text-[48px] leading-[52px] font-semibold text-white text-center px-5 sm:px-8 lg:px-24 pt-8 ">COOKIES POLICY</h1>
             <div className="text-white max-w-[838px] text-justify text-[16px] leading-[24px] space-y-5 px-5 sm:px-8 lg:px-24 pt-8 ">
