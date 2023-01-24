@@ -240,7 +240,10 @@ export default function Policy() {
 
                  <p className="text-white font-semibold">9. Security of personal information</p>
 
-                ‍ <p>We use reasonable organisational, technical and administrative measures designed to protect against unauthorised access, misuse, loss, disclosure, alteration and destruction of personal information we process. Unfortunately, data transmission over the internet cannot be guaranteed as completely secure. Therefore, while we strive to protect your personal information, we cannot guarantee its security.</p>
+                ‍ <p>
+                    We use reasonable organisational, technical and administrative measures designed to protect against unauthorised access, misuse, loss, disclosure, alteration and destruction of personal information we process. Unfortunately, data transmission over the internet cannot be guaranteed as completely secure. Therefore, while we strive to protect your personal information, we cannot guarantee its security.
+                 </p>
+                
                 </p>
                 
                 <p className="space-y-2.5">
