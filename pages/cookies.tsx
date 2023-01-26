@@ -99,6 +99,7 @@ export default function Cookies() {
                 <p>
                     We will update this Policy from time to time. You are advised to review this Policy periodically for any changes. 
                     Changes to this Policy are effective when they are posted on this page. If we make material changes, we will let you know.
+                    Last updated: 16th January 2023
                 </p>
             </div>
             <Footer />
