@@ -13,6 +13,7 @@ export default function Home() {
     <div className="bg-black">
       <Head>
         <title>B Labs</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
         <Hero />

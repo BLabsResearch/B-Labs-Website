@@ -5,6 +5,7 @@ export default function Thankyou() {
         <div className="w-full h-screen bg-black">
             <Head>
                 <title>Thank you</title>
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <div className="flex flex-col items-center justify-center w-full h-full space-y-2.5">
                 <CheckCircleIcon className="w-40 h-40 text-red-700" />

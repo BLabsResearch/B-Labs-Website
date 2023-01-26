@@ -7,6 +7,7 @@ export default function Policy() {
         <div className="w-full bg-black min-h-screen space-y-[50px] flex flex-col items-center">
             <Head>
                 <title>Policy</title>
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <div className="w-full px-5 sm:px-8 lg:px-24 pt-8 "><Navbar /></div>
             <h1 className="text-[36px] md:text-[48px] leading-[52px] font-semibold text-white text-center px-5 sm:px-8 lg:px-24 pt-8 ">PRIVACY Policy</h1>
