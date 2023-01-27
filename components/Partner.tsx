@@ -17,7 +17,7 @@ export default function Partner() {
                 <div className="px-5 space-y-4 text-white sm:px-16 lg:px-0">
                     <div className="space-y-2">
                         <p className="text-base">We are a decentralised web3 native entity providing you with the desired information for your business needs.</p>
-                        <p className="text-base">Our onboarding identifies the most suitable methodology for your organization and adapts the framework to your needs</p>
+                        <p className="text-base">Our onboarding identifies the most suitable methodology for your organisation and adapts the framework to your needs</p>
                         <p className="text-base">We work agile, ensuring results and meaningful, focused iterations.</p>
                     </div>
                     <div className="w-full text-center lg:text-start">

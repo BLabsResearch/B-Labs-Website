@@ -26,7 +26,7 @@ export default function Contact() {
                          name="custom_street" placeholder="smith#1234" required />
                     </div>
                     <div className="flex-1 w-full">
-                        <p className="text-white p">Organization</p>
+                        <p className="text-white p">Organisation</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
                          name="custom_company" placeholder="ABC Ltd." required />
                     </div>
