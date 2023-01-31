@@ -9,7 +9,7 @@ export default function Expertise() {
             </h3>
             <p className="w-full text-left text-white md:pl-14 lg:text-center lg:pl-0">We can currently offer you:</p>
             <div className="max-w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-3 gap-y-[76px] lg:gap-[76px]">
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/business.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Business</h4>
                     <div className="text-white p">
@@ -21,7 +21,7 @@ export default function Expertise() {
                         </ol>
                     </div>
                 </div>
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/marketing.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Marketing</h4>
                     <div className="text-white p">
@@ -35,7 +35,7 @@ export default function Expertise() {
                         </ol>
                     </div>
                 </div>
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/treasury.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Treasury</h4>
                     <div className="text-white p">
@@ -48,7 +48,7 @@ export default function Expertise() {
                         </ol>
                     </div>
                 </div>
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/community.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Community</h4>
                     <div className="text-white p">
@@ -62,7 +62,7 @@ export default function Expertise() {
                         </ol>
                     </div>
                 </div>
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/tokenomics.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Tokenomics</h4>
                     <div className="text-white p">
@@ -76,7 +76,7 @@ export default function Expertise() {
                         </ol>
                     </div>
                 </div>
-                <div className="w-[300px] border-2 border-white rounded-lg p-5 space-y-1.5">
+                <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/flag.png" width={30} height={30} alt="icon" />
                     <h4 className="text-white h4">Governance</h4>
                     <div className="text-white p">
