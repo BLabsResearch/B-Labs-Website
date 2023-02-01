@@ -11,7 +11,7 @@ export default function Expertise() {
             <div className="max-w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-3 gap-y-[76px] lg:gap-[76px]">
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/business.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Business</h4>
+                    <h4 className="text-white h4 font-semibold">Business</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Market access and sector specific analysis</li>
@@ -23,7 +23,7 @@ export default function Expertise() {
                 </div>
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/marketing.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Marketing</h4>
+                    <h4 className="text-white h4 font-semibold">Marketing</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Brand research</li>
@@ -37,7 +37,7 @@ export default function Expertise() {
                 </div>
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/treasury.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Treasury</h4>
+                    <h4 className="text-white h4 font-semibold">Treasury</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Asset diversification</li>
@@ -50,7 +50,7 @@ export default function Expertise() {
                 </div>
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/community.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Community</h4>
+                    <h4 className="text-white h4 font-semibold">Community</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Attracting talent</li>
@@ -64,7 +64,7 @@ export default function Expertise() {
                 </div>
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/tokenomics.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Tokenomics</h4>
+                    <h4 className="text-white h4 font-semibold">Tokenomics</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Automations/CADCAD governance audit </li>
@@ -78,7 +78,7 @@ export default function Expertise() {
                 </div>
                 <div className="w-[300px] border-2 border-white rounded-lg space-y-1.5 p-[27px]">
                     <Image src="/flag.png" width={30} height={30} alt="icon" />
-                    <h4 className="text-white h4">Governance</h4>
+                    <h4 className="text-white h4 font-semibold">Governance</h4>
                     <div className="text-white p">
                         <ol className="space-y-1 list-disc sm:px-5">
                             <li className="p">Voting best practices</li>
