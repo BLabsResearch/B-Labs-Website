@@ -11,7 +11,7 @@ export default function Support() {
             <div className="max-w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-3 lg:gap-5">
                 <div className="w-[300px] lg:w-[350px] h-auto border border-white rounded-lg p-3.5 lg:p-5 space-y-5 flex flex-col">
                     <Image src={"/charts.png"} width={50} height={50} alt="icon" />
-                    <h4 className="h4 text-white">Analysis</h4>
+                    <h4 className="h4 text-white font-semibold">Analysis</h4>
                     <p className="p text-white flex-1">
                         Data driven research, including  tokenomics modelling, on-chain analysis and data driven marketing research
                     </p>
@@ -21,7 +21,7 @@ export default function Support() {
                 </div>
                 <div className="w-[300px] lg:w-[350px] h-auto border border-white rounded-lg p-3.5 lg:p-5 space-y-5 flex flex-col">
                     <Image src={"/write.png"} width={50} height={50} alt="icon" />
-                    <h4 className="h4 text-white">Reports</h4>
+                    <h4 className="h4 text-white font-semibold">Reports</h4>
                     <p className="p text-white flex-1">
                         In-depth research reports covering web3 topics  that are key to operating successfully in web3
                     </p>
@@ -31,7 +31,7 @@ export default function Support() {
                 </div>
                 <div className="w-[300px] lg:w-[350px] h-auto border border-white rounded-lg p-3.5 lg:p-5 space-y-5 flex flex-col">
                     <Image src={"/advisory.png"} width={50} height={50} alt="icon" />
-                    <h4 className="h4 text-white">Advisory</h4>
+                    <h4 className="h4 text-white font-semibold">Advisory</h4>
                     <p className="p text-white flex-1">
                         Providing light-touch research to address your project or campaign needs in web3
                     </p>
