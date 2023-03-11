@@ -12,7 +12,7 @@ export default function Contact() {
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
                          name="name" placeholder="Robin Smith" required />
                     </div>
-                    <input type="hidden" name="thankyou_url" value="https://blabs.vercel.app/thankyou"/>
+                    <input type="hidden" name="thankyou_url" value="https://blabs.vercel.app/thankyou?saved=contact"/>
                     <div className="flex-1 w-full">
                         <p className="text-white p sm:h-auto">Your mail *</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white"
