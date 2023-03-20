@@ -12,7 +12,7 @@ export default function Footer() {
                 <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post"
                  className="flex min-w-full mb-[80px]">
                     <input type="email" className="w-full p-2 pl-4 pr-5 rounded-l-lg outline-none" placeholder="Enter email" name="email" />
-                    <input type="hidden" name="campaign_token" value="fN4Li" />
+                    <input type="hidden" name="campaign_token" value="PjQKd" />
                     <input type="hidden" name="start_day" value="0" />
                     <input type="hidden" name="thankyou_url" value="https://blabsresearch.com/savednewsletter.html"/>
                     <button className="text-white py-2 px-4 rounded-lg bg-red-700 -ml-3.5" type="submit">Subscribe</button>
