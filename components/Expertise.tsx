@@ -57,7 +57,7 @@ export default function Expertise() {
                             <li className="p">Education</li>
                             <li className="p">Competitive analysis</li>
                             <li className="p">Case studies</li>
-                            <li className="p">interviews/profiling to understand pain points in communities</li>
+                            <li className="p">Interviews/profiling to understand pain points in communities</li>
                             <li className="p">Communication audit</li>
                         </ol>
                     </div>
